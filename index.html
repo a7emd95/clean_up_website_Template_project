@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        $(document).ready(function () {
+            $("#link1").click(function () {
+                $("#plus1").toggleClass("fa-plus")
+                $("#plus1").toggleClass("fa-minus")
+            })
+
+            $("#link2").click(function () {
+                $("#plus2").toggleClass("fa-plus")
+                $("#plus2").toggleClass("fa-minus")
+            })
+
+            $("#link3").click(function () {
+                $("#plus3").toggleClass("fa-plus")
+                $("#plus3").toggleClass("fa-minus")
+            })
+
+            $("#link4").click(function () {
+                $("#plus4").toggleClass("fa-plus")
+                $("#plus4").toggleClass("fa-minus")
+            })
+
+            $("#link5").click(function () {
+                $("#plus5").toggleClass("fa-plus")
+                $("#plus5").toggleClass("fa-minus")
+            })
+
+            $("#link6").click(function () {
+                $("#plus6").toggleClass("fa-plus")
+                $("#plus6").toggleClass("fa-minus")
+            })
+
+
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <header class="container-fluid opacity-3">
+        <div class="row">
+            <div class="col-md-4 text-center bg-primary p-3  " id="Logo ">
+                <h1 class="text-white">CleanUp</h1>
+            </div>
+            <div class="col-md-8 bg-primary" id="navSec">
+                <nav class="navbar navbar-expand-md bg-primary navbar-dark mt-4 ">
+                    <a class="navbar-brand d-md-none " href="#">Menu</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end mr-4" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Single</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+    </header>
+
+    <div id="slider" class="container mt-4">
+        <div class="col-12">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/single.jpg" alt="" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Clean Every place</h3>
+                            <p>We had to clean everthing</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/team-3.jpg" alt="" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Experience Ones</h3>
+                            <p>Experenc team work here</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/service-3.jpg" alt="" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Any time!</h3>
+                            <p>Any Time You can call us </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid mt-5 mb-5  bg-primary rounded p-5">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="text-white sevtext ml">GET A FREE CLEANING SERVICE</p>
+                <p class="text-white sevtext ">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <button type="button " class="btn btn-warning mt-4 ml-5 text-white ">CONTACT US</button>
+        </div>
+
+
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="content container mt-5">
+
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/about.jpg" class="img-fluid rounded ">
+                </div>
+
+                <div class="col-md-7">
+                    <span class="text-info" id="exp">10</span><span class="text-info"> Years Experience</span>
+
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur
+                            convallis porttitor. Aliquam interdum at lacus non blandit.</p>
+                    </div>
+                    <button type="button" class="btn btn-warning w-25 ">Learn More</button>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center ">
+                    <h4>Our Services</h4>
+                    <p class="text-info sevtext">Provide Services</p>
+                    <p class="text-info sevtext ">Worldwide</p>
+
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------------------->
+            <div class="row mt-5 ">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="img/service-1.jpg" class="card-img-top" alt="service">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info"> Glass Cleaning</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur
+                                facilisis ornare</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/service-2.jpg" class="card-img-top" alt="service">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info"> Glass Cleaning</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur
+                                facilisis ornare</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/service-3.jpg " class="card-img-top" alt="service">
+                        <div class="card-body text-center ">
+                            <h5 class="card-title text-info"> Carpet Cleaning</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur
+                                facilisis ornare</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="card ">
+                        <img src="img/service-4.jpg " class="card-img-top" alt="service">
+                        <div class="card-body text-center ">
+                            <h5 class="card-title text-info"> Carpet Cleaning</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur
+                                facilisis ornare</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------------------->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div>
+                        <h5>Why Choose Us </h5>
+                        <p class="text-info sevtext">Expert Cleaners </p>
+                        <p class="text-info sevtext">and World Class </p>
+                        <p class="text-info sevtext">Services</p>
+                    </div>
+                    <div class="mt-4">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
+                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                            viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur
+                            convallis porttitor. Aliquam interdum at lacus non blandit.
+                        </p>
+
+                    </div>
+
+                    <button type="button " class="btn btn-warning mt-4 ">Learn More</button>
+                </div>
+                <!------------------------------------------------------------------------------------------------------------------->
+                <div class="col-md-6 ">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/feature-1.jpg" class="img-fluid rounded ">
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="text-info fettext">Expert Cleaners </p>
+                            <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                                velit non vulputate</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-3 mb-3">
+                        <div class="col-sm-6">
+                            <img src="img/feature-2.jpg" class="img-fluid rounded ">
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="text-info fettext">
+                                Reasonable Prices </p>
+                            <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                                velit non vulputate</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/feature-3.jpg" class="img-fluid rounded ">
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="text-info fettext">Quick & Best Services </p>
+                            <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                                velit non vulputate</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!---------------------------------------------------------------------------------------------------------------------->
+
+            <div class="row mt-5">
+                <div class="col-md-12 text-center ">
+                    <h4>Team Member</h4>
+                    <p class="text-info sevtext">Meet Our Expert</p>
+                    <p class="text-info sevtext ">Cleaners</p>
+
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------------------------->
+            <div class="row mt-5 ">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="img/team-1.jpg" class="card-img-top" alt="service">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info"> Josh Dunn</h5>
+                            <p class="card-text">CEO</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter p-2"></i></a>
+                                <a href=""><i class="fab fa-facebook-f p-2"></i></a>
+                                <a href=""><i class="fab fa-youtube p-2"></i></a>
+                                <a href=""><i class="fab fa-instagram p-2"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in p-2 "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/team-2.jpg" class="card-img-top" alt="service">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-info"> Mollie Ross</h5>
+                            <p class="card-text">Team Manager</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter p-2"></i></a>
+                                <a href=""><i class="fab fa-facebook-f p-2"></i></a>
+                                <a href=""><i class="fab fa-youtube p-2"></i></a>
+                                <a href=""><i class="fab fa-instagram p-2"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in p-2 "></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/team-3.jpg " class="card-img-top" alt="service">
+                        <div class="card-body text-center ">
+                            <h5 class="card-title text-info"> Dylan Adams</h5>
+                            <p class="card-text">Cleaner</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter p-2"></i></a>
+                                <a href=""><i class="fab fa-facebook-f p-2"></i></a>
+                                <a href=""><i class="fab fa-youtube p-2"></i></a>
+                                <a href=""><i class="fab fa-instagram p-2"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in p-2 "></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card ">
+                        <img src="img/team-4.jpg" class="card-img-top" alt="service">
+                        <div class="card-body text-center ">
+                            <h5 class="card-title text-info"> Jennifer Page</h5>
+                            <p class="card-text">Cleaner</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter p-2"></i></a>
+                                <a href=""><i class="fab fa-facebook-f p-2"></i></a>
+                                <a href=""><i class="fab fa-youtube p-2"></i></a>
+                                <a href=""><i class="fab fa-instagram p-2"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in p-2 "></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------------------------------------------->
+            <div class="row mt-5">
+                <div class="col-md-5">
+                    <div>
+                        <h5>You Might Ask </h5>
+                        <p class="text-info asktext">Frequently Asked </p>
+                        <p class="text-info asktext">Questions </p>
+                    </div>
+                    <img src="img/faqs.jpg" class="img-fluid rounded mt-3 ">
+                </div>
+                <div class="col-md-7">
+                    <hr>
+                    <p>
+
+                        <a id="link1" class="askhover" data-toggle="collapse" href="#collapseExample"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <span class="d-flex ">
+                                <span class="border border-warning rounded p-2 bg-warning">1</span>
+                                <span class="ml-3 ">Lorem ipsum dolor sit amet elit. Phasellus</span>
+                                <i class="fas fa-plus ml-auto" id="plus1"></i>
+                            </span>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+
+                        <a id="link2" class="askhover" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample2">
+                            <span class="d-flex ">
+                                <span class="border border-warning rounded p-2 bg-warning">2</span>
+                                <span class="ml-3 ">Lorem ipsum dolor sit amet elit. Phasellus</span>
+                                <i class="fas fa-plus ml-auto" id="plus2"></i>
+                            </span>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+
+                        <a id="link3" class="askhover" data-toggle="collapse" href="#collapseExample3"
+                            aria-expanded="false" aria-controls="collapseExample3">
+                            <span class="d-flex ">
+                                <span class="border border-warning rounded p-2 bg-warning">3</span>
+                                <span class="ml-3 ">Lorem ipsum dolor sit amet elit. Phasellus</span>
+                                <i class="fas fa-plus ml-auto" id="plus3"></i>
+                            </span>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+
+                        <a id="link4" class="askhover" data-toggle="collapse" href="#collapseExample4"
+                            aria-expanded="false" aria-controls="collapseExample4">
+                            <span class="d-flex ">
+                                <span class="border border-warning rounded p-2 bg-warning">4</span>
+                                <span class="ml-3 ">Lorem ipsum dolor sit amet elit. Phasellus</span>
+                                <i class="fas fa-plus ml-auto" id="plus4"></i>
+                            </span>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample4">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+
+                        <a id="link5" class="askhover" data-toggle="collapse" href="#collapseExample5"
+                            aria-expanded="false" aria-controls="collapseExample5">
+                            <span class="d-flex ">
+                                <span class="border border-warning rounded p-2 bg-warning">5</span>
+                                <span class="ml-3 ">Lorem ipsum dolor sit amet elit. Phasellus</span>
+                                <i class="fas fa-plus ml-auto" id="plus5"></i>
+                            </span>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample5">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+
+                        <a id="link6" class="askhover" data-toggle="collapse" href="#collapseExample6"
+                            aria-expanded="false" aria-controls="collapseExample6">
+                            <span class="d-flex ">
+                                <span class="border border-warning rounded p-2 bg-warning">6</span>
+                                <span class="ml-3 ">Lorem ipsum dolor sit amet elit. Phasellus</span>
+                                <i class="fas fa-plus ml-auto" id="plus6"></i>
+                            </span>
+                        </a>
+
+                    </p>
+                    <div class="collapse" id="collapseExample6">
+                        <div>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                            ea proident.
+                        </div>
+                    </div>
+                    <hr>
+                    <button type="button " class="btn btn-warning mt-4 ">Ask More</button>
+                    <!-------------------------------------------------------------------------------------------------------------->
+
+                </div>
+
+            </div>
+            <!----------------------------------------------------------------------------------------------------------------------------->
+            <div class="row mt-5">
+                <div class="col-md-12 text-center ">
+                    <h4>Pricing Plan</h4>
+                    <p class="text-info sevtext">No Extra Hidden</p>
+                    <p class="text-info sevtext ">Charges</p>
+                </div>
+
+                <div class="card-deck mt-5">
+
+                    <div class="card text-center">
+                        <div class="card-header headerFontSize bg-warning  ">
+                            <i class="fas fa-home" style="font-size: 300%;"></i>
+                            <p>Stanard</p>
+                            <p>99$</p>
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3 Bedrooms cleaning</li>
+                            <li class="list-group-item">2 Bathrooms cleaning</li>
+                            <li class="list-group-item">1 Living room Cleaning</li>
+                            <li class="list-group-item">Vacuum Cleaning</li>
+                            <li class="list-group-item">Within 6 Hours</li>
+                        </ul>
+                        <div class="card-body">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galle</p>
+                            <a href="#" class="btn btn-warning">BOOK NOW</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card text-center ">
+                        <div class="card-header headerFontSize bg-warning">
+                            <i class="fas fa-star" style="font-size: 300%;"></i>
+                            <p>Premium</p>
+                            <p>149$</p>
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3 Bedrooms cleaning</li>
+                            <li class="list-group-item">2 Bathrooms cleaning</li>
+                            <li class="list-group-item">1 Living room Cleaning</li>
+                            <li class="list-group-item">Vacuum Cleaning</li>
+                            <li class="list-group-item">Within 6 Hours</li>
+                        </ul>
+                        <div class="card-body">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galle</p>
+                            <a href="#" class="btn btn-warning">BOOK NOW</a>
+
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header headerFontSize bg-warning">
+                            <i class="fas fa-gift" style="font-size: 300%;"></i>
+                            <p>Enterprise</p>
+                            <p>199$</p>
+                        </div>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3 Bedrooms cleaning</li>
+                            <li class="list-group-item">2 Bathrooms cleaning</li>
+                            <li class="list-group-item">1 Living room Cleaning</li>
+                            <li class="list-group-item">Vacuum Cleaning</li>
+                            <li class="list-group-item">Within 6 Hours</li>
+                        </ul>
+                        <div class="card-body">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galle</p>
+                            <a href="#" class="btn btn-warning">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------------------------------------------------------------------------------------------->
+
+            <!--cusomre reviews-->
+
+
+            <div class="row mt-5">
+                <div class="col-md-12 text-center ">
+                    <h4>Client Review</h4>
+                    <p class="text-info sevtext">Client Says About</p>
+                    <p class="text-info sevtext ">Service</p>
+
+                </div>
+            </div>
+
+
+            <div class="row ">
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+                        <div class="container">
+                            <div class="owl-carousel testimonials-carousel">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-img">
+                                        <img src="img/testimonial-1.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan
+                                            lacus eget velit
+                                        </p>
+                                        <h3>Customer Name</h3>
+                                        <h4>Profession</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+                        <div class="container">
+                            <div class="owl-carousel testimonials-carousel">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-img">
+                                        <img src="img/testimonial-2.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan
+                                            lacus eget velit
+                                        </p>
+                                        <h3>Customer Name</h3>
+                                        <h4>Profession</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+                        <div class="container">
+                            <div class="owl-carousel testimonials-carousel">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-img">
+                                        <img src="img/testimonial-3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan
+                                            lacus eget velit
+                                        </p>
+                                        <h3>Customer Name</h3>
+                                        <h4>Profession</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-------------------------------------------------------------------------------------------------------->
+
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-contact">
+                        <h2>Get In Touch</h2>
+                        <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                        <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                        <p><i class="fa fa-envelope"></i>info@example.com</p>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-link">
+                        <h2>Useful Link</h2>
+                        <a href="">About Us</a>
+                        <a href="">Our Story</a>
+                        <a href="">Our Services</a>
+                        <a href="">Our Projects</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-link">
+                        <h2>Useful Link</h2>
+                        <a href="">Our Clients</a>
+                        <a href="">Clients Review</a>
+                        <a href="">Ongoing Project</a>
+                        <a href="">Customer Support</a>
+                        <a href="">FAQs</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-form">
+                        <h2>Stay Updated</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, adipiscing elit. Etiam accumsan lacus eget velit
+                        </p>
+                        <input class="form-control" placeholder="Email here">
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-menu">
+            <div class="f-menu">
+                <a href="">Terms of use</a>
+                <a href="">Privacy policy</a>
+                <a href="">Cookies</a>
+                <a href="">Help & FQAs</a>
+                <a href="">Contact us</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
